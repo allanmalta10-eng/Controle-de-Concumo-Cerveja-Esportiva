@@ -1,6 +1,0 @@
-﻿Flask
-gunicorn
-Flask
-gunicorn
-pandas
-Flask-SQLAlchemy
