@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="card mx-auto p-3" style="max-width:420px">
+  <form method="POST">
+    <h6 class="mb-3 text-center">Acesso Administrativo</h6>
+    <input name="usuario" class="form-control mb-2" placeholder="Usuário" required>
+    <input name="senha" type="password" class="form-control mb-3" placeholder="Senha" required>
+    <div class="d-grid"><button class="btn btn-dark">Entrar</button></div>
+  </form>
+</div>
+{% endblock %}
